@@ -9,3 +9,6 @@ Considerando usar approxPoly e não a casca convexa, mas tqv pq ela tbm trás pr
 uma imagem e tornando todos os pixels "parados" em 0, o algoritmo continua achando kp no meio do nd...
 2 (atualização) - tentei com o sift e fica mt lento. Com o fast, aparentemente dá certo, só tem q ver agora
 como usar isso. Também tem que considerar que por algum motivos, os keypoints ficam sumindo
+2 (atualização) - usando o ORB, consigo pegar os descritores 
+
+- por algum motivo, usar o ORB faz criar novos ID's (? Usando fast, isso não acontece)
