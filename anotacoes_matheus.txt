@@ -1,9 +1,11 @@
-- mudei para usar a casca convexa ao invés de um retangulo, pq acho q faz mais sentido. Mostra o id de cada 
+1 - mudei para usar a casca convexa ao invés de um retangulo, pq acho q faz mais sentido. Mostra o id de cada 
 pessoa que apareceu. Tava com um problema relacionado a sombras, identificando uma pessoa dentro de outra, 
 mas acho que agora não está mais. Tem que colocar um time inicial pra considerar um contorno (já coloquei, 
 mas não tá saindo como eu quero), pois assim que uma pessoa surge, ele adiciona vários id (deve ser pq o contorno 
 muda mt quando alguém acaba de entrar). Ainda buscando captar as características, mas n deve ser nada tão complicado. 
 Considerando usar approxPoly e não a casca convexa, mas tqv pq ela tbm trás problemas
 
-- Tentando usar descritores, mas parece ter algo mt errado com essa técnica. Por algum motivo, mesmo eu pegando
+2 - Tentando usar descritores, mas parece ter algo mt errado com essa técnica. Por algum motivo, mesmo eu pegando
 uma imagem e tornando todos os pixels "parados" em 0, o algoritmo continua achando kp no meio do nd...
+2 (atualização) - tentei com o sift e fica mt lento. Com o fast, aparentemente dá certo, só tem q ver agora
+como usar isso
