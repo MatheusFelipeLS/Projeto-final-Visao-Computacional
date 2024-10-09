@@ -1,2 +1,5 @@
 - pessoa contra a luz gerando sombra na frente do seu corpo, que era reconhecido como outro objeto
 - problemas com câmera (equipamento)
+- Sombra sendo reconhecida como outro corpo
+- partes do corpo de uma única pessoa sendo separado
+- porta sendo considerada uma pessoa
