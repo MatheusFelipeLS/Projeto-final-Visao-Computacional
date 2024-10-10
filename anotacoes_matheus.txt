@@ -12,3 +12,7 @@ como usar isso. Também tem que considerar que por algum motivos, os keypoints f
 2 (atualização) - usando o ORB, consigo pegar os descritores 
 
 - por algum motivo, usar o ORB faz criar novos ID's (? Usando fast, isso não acontece)
+
+- tentei usar HOG descriptor, mas ficou extremamente lento
+
+- tentamos comparar matches, mas ficava muito lento
