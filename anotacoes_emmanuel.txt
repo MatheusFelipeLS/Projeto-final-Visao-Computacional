@@ -1,1 +1,8 @@
-ola
+Problema Atual: A captura da primeira imagem detectada pela câmera resulta na captura do fundo estático, ao invés de movimentos relevantes (pessoas).
+Correção Proposta:
+Implementar um loop que atualize a imagem de comparação de features continuamente.
+Utilizar o YOLO para detectar exclusivamente pessoas, evitando a detecção de elementos estáticos no ambiente.
+Estratégia com YOLO:
+Quando uma pessoa for detectada pela IA YOLO, salvar as features dessa pessoa.
+Criar um array para armazenar e comparar as características de cada pessoa detectada, possibilitando a verificação se a pessoa continua presente ou não.
+Focar nas diferenças de tamanho e outras características para avaliar mudanças entre pessoas diferentes.
