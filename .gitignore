@@ -3,3 +3,8 @@ tests
 *.mp4
 print_dos_problemas
 .venv
+articles.txt
+math.ipynb
+aprigio.ipynb
+anotacoes.txt
+yolo.ipynb
