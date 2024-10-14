@@ -18,3 +18,5 @@ source yolovenv/bin/activate
 
 pip install --quiet ultralytics
 pip install --quiet scikit-learn
+
+### Após isso, executar as células do jupyter notebook
